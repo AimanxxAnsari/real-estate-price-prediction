@@ -1,7 +1,7 @@
 import json
 import pickle
 import numpy as np
-ignore 
+ 
 
 __location = None
 __data_columns = None
@@ -29,7 +29,7 @@ def get_location():
 def load_saved():
     print('loading saved info..')
     global __data_columns
-    global __location
+    global __location 
     global __model
 
     with open('../model/columns.json', 'r') as file:
